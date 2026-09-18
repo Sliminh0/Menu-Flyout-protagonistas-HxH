@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<FlyoutPage.Flyout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.appFlyoutpage"
-             Title="appFlyoutpage">
+             Title="appFlyoutpage"
+             FlyoutLayoutBehavior="Popover">
 
     <FlyoutPage.Flyout>
         <ContentPage Title="Menu" BackgroundColor="Red">
-            <StackLayout>
+            <StackLayout Spacing="10">
                 
                 <Label Text="Menu"/>
-
+                
                 <Button Text="Gon Freecs"
                         Clicked="GonClicked"
                         WidthRequest="200"/>
@@ -25,7 +26,11 @@
                 <Button Text="Leorio Paradinight"
                         Clicked="LeorioClicked"
                         WidthRequest="200"/>
-                
+
+                <Button Text="Voltar ao Menu"
+                        Clicked="MenuClicked"
+                        WidthRequest="200"/>
+
             </StackLayout>
         </ContentPage> 
     </FlyoutPage.Flyout>
