@@ -38,4 +38,5 @@ public partial class appFlyoutpage : FlyoutPage
         Detail = new NavigationPage(new MainPage());
         IsPresented = false;
     }
+
 }
