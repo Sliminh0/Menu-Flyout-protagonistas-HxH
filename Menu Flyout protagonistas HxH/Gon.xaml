@@ -2,12 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.Gon"
-             Title="Gon">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-        
+             Title="Gon Freecss"
+             BackgroundColor="#3b3d3b">
+    <VerticalStackLayout
+        Padding="20"
+Spacing="20">
+
+        <Image
+                Source="gonn.jpg"
+                HeightRequest="220"
+                Aspect="AspectFill" />
+
+
+        <Border
+                Stroke="#3c9151"
+                StrokeThickness="2"
+                StrokeShape="RoundRectangle 12"
+                Padding="15" BackgroundColor="#2A753C">
+
+            <Label 
+            Text="Gon Freecss é um caçador novato e filho de Ging Freecss. Encontrar seu pai é a motivação de Gon para se tornar um Caçador.
+Ele foi o principal protagonista da maior parte da série, desempenhando esse papel nos arcos do Exame Hunter, Arena Celestial , Ilha da Ganância e Formigas Quimera.
+ Ele também foi o deuteragonista do arco de Yorknew City."
+            />
+
+        </Border>
+
+        <HorizontalStackLayout Padding="20" Spacing="15">
+
+            <Image Source="gon.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="gonpsca.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="fass.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+        </HorizontalStackLayout>
+
     </VerticalStackLayout>
 </ContentPage>

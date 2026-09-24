@@ -2,11 +2,44 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.Killua"
-             Title="Killua">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+             Title="Killua"
+             BackgroundColor="#3b3d3b">
+    
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Image
+                Source="killuaa.jpg"
+                HeightRequest="220"
+                Aspect="AspectFill" />
+
+
+        <Border
+                Stroke="#3c9151"
+                StrokeThickness="2"
+                StrokeShape="RoundRectangle 12"
+                Padding="15" BackgroundColor="#2A753C">
+
+            <Label 
+            Text=""
+            />
+
+        </Border>
+
+        <HorizontalStackLayout Padding="20" Spacing="15">
+
+            <Image Source="killuaapple.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="kiluazetsu.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="kisorriso.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
