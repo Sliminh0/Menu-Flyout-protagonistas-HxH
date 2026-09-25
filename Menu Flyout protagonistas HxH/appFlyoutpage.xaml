@@ -6,7 +6,7 @@
              FlyoutLayoutBehavior="Popover">
 
     <FlyoutPage.Flyout>
-        <ContentPage Title="Menu" BackgroundColor="Red">
+        <ContentPage Title="Menu" BackgroundColor="#3b3d3b">
             <StackLayout Spacing="10">
                 
                 <Label Text="Menu"/>
