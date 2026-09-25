@@ -6,7 +6,7 @@
               BackgroundColor="#3b3d3b">
 <VerticalStackLayout Padding="20" Spacing="20">
         <Image
-                Source="killuaa.jpg"
+                Source="kurapikaa.jpg"
                 HeightRequest="220"
                 Aspect="AspectFill" />
 
@@ -35,7 +35,7 @@
                    Aspect="AspectFill"
                    WidthRequest="100"/>
 
-            <Image Source="kurapikaa.jpg"
+            <Image Source="kurapikanovaa.jpg"
                    HeightRequest="100"
                    Aspect="AspectFill"
                    WidthRequest="100"/>
