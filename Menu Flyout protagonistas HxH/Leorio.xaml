@@ -3,10 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.Leorio"
              Title="Leorio">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+<VerticalStackLayout Padding="20" Spacing="20">
+        <Image
+                Source="leorioo.jpg"
+                HeightRequest="220"
+                Aspect="AspectFill" />
+
+
+        <Border
+                Stroke="#3c9151"
+                StrokeThickness="2"
+                StrokeShape="RoundRectangle 12"
+                Padding="15" BackgroundColor="#2A753C">
+
+            <Label 
+            Text="Leorio Paradinight é um caçador novato e membro dos Zodíacos com o codinome Javali. Atualmente é estudante de medicina, estudando para se tornar médico."
+            />
+
+        </Border>
+
+        <HorizontalStackLayout Padding="20" Spacing="15">
+
+            <Image Source="leoriobravo.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="leoriomic.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+
+            <Image Source="leoriosuad.jpg"
+                   HeightRequest="100"
+                   Aspect="AspectFill"
+                   WidthRequest="100"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
