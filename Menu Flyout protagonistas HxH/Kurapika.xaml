@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.Kurapika"
-             Title="Kurapika">
+             Title="Kurapika"
+              BackgroundColor="#3b3d3b">
 <VerticalStackLayout Padding="20" Spacing="20">
         <Image
                 Source="killuaa.jpg"
