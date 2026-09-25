@@ -13,23 +13,28 @@
                 
                 <Button Text="Gon Freecss"
                         Clicked="GonClicked"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        BackgroundColor="#2A753C"/>
 
                 <Button Text="Killua Zoldyck"
                         Clicked="KilluaClicked"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        BackgroundColor="#2A753C"/>
 
                 <Button Text="Kurapika Kurta"
                         Clicked="KurapikaClicked"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        BackgroundColor="#2A753C"/>
 
                 <Button Text="Leorio Paradinight"
                         Clicked="LeorioClicked"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        BackgroundColor="#2A753C"/>
 
                 <Button Text="Voltar ao Menu"
                         Clicked="MenuClicked"
-                        WidthRequest="200"/>
+                        WidthRequest="200"
+                        BackgroundColor="#2A753C"/>
 
             </StackLayout>
         </ContentPage> 
