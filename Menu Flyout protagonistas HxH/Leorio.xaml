@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Menu_Flyout_protagonistas_HxH.Leorio"
              Title="Leorio"
-BackgroundColor="#3b3d3b">
+             BackgroundColor="#3b3d3b">
 <VerticalStackLayout Padding="20" Spacing="20">
         <Image
                 Source="leorioo.jpg"
